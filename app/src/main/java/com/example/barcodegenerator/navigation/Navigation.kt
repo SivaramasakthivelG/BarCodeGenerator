@@ -14,11 +14,11 @@ fun NavigationScreen() {
 
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = Screens.TextToBarcode.route){
-        composable(Screens.TextToBarcode.route){
+    NavHost(navController = navController, startDestination = Screens.TextToBarcode.route) {
+        composable(Screens.TextToBarcode.route) {
             GenerateBarcode(modifier = Modifier)
         }
-        composable(Screens.ImageToBarcode.route){
+        composable(Screens.ImageToBarcode.route) {
             ImageToBarcode()
         }
 
