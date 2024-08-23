@@ -15,7 +15,6 @@ class MainActivity : ComponentActivity() {
             val viewModel = ViewModelProvider(this)[SharedViewModel::class.java]
             BarCodeGeneratorTheme {
                 NavigationScreen(viewModel)
-                
             }
         }
     }
