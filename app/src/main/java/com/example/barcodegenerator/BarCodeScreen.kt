@@ -62,6 +62,7 @@ import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 import java.io.InputStream
+import java.lang.reflect.Modifier
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 
